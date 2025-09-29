@@ -71,7 +71,7 @@ export const questions = [
     answerOptions: [
         { answerText: '// ini komentar', isCorrect: false },
         { answerText: '/* ini komentar */', isCorrect: true },
-        { answerText: '', isCorrect: false },
+        { answerText: '*//*', isCorrect: false },
     ],
   },
   {
