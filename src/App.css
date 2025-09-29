@@ -1,0 +1,531 @@
+/* --- Global Styling --- */
+body {
+  margin: 0;
+  background: url('https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227_1280.jpg') no-repeat center center fixed;
+  background-size: cover; /* Pastikan gambar menutupi seluruh background */
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: var(--primary-text);
+  overflow: hidden;
+  position: relative;
+}
+
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Lapisan gelap 60% */
+  z-index: -1;
+}
+
+.app {
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15); /* Shadow lebih menyebar dan lembut */
+  width: 90%;
+  max-width: 600px; /* Sedikit lebih kecil agar terkesan padat */
+  padding: 50px 30px; /* Padding vertikal lebih besar */
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* Animasi Fade In */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Welcome Screen Styling --- */
+.welcome-screen {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Ikon Teknologi */
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Jarak antar ikon */
+  margin-bottom: 35px; /* Jarak dari judul */
+  animation: slideInFromTop 0.8s ease-out; /* Animasi masuk dari atas */
+}
+
+.tech-icons img {
+  width: 45px; /* Ukuran ikon lebih proporsional */
+  height: 45px;
+  opacity: 0.8; /* Sedikit transparan */
+  filter: drop-shadow(0 3px 5px rgba(0,0,0,0.1)); /* Shadow pada ikon */
+  transition: all 0.3s ease;
+}
+
+.tech-icons img:hover {
+  opacity: 1;
+  transform: translateY(-5px) scale(1.1); /* Efek melayang saat hover */
+}
+
+@keyframes slideInFromTop {
+  0% { transform: translateY(-50px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+.welcome-screen h1 {
+  font-size: 2.8em; /* Ukuran judul disesuaikan */
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.welcome-screen p {
+  font-size: 1.1em; /* Ukuran deskripsi disesuaikan */
+  color: #616161;
+  margin-bottom: 40px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Styling untuk Tombol Kesulitan (VERTIKAL) */
+.difficulty-selection {
+  display: flex;
+  flex-direction: column; /* Mengatur tombol dalam kolom */
+  align-items: center; /* Tombol rata tengah */
+  gap: 15px; /* Jarak antar tombol */
+  margin-top: 20px;
+}
+
+.difficulty-selection button {
+  width: 70%; /* Lebar tombol disesuaikan */
+  max-width: 250px;
+  padding: 16px 25px;
+  border: none; /* Hilangkan border default */
+  background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%); /* Gradien tombol */
+  color: white;
+  border-radius: 50px;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 25px rgba(37, 117, 252, 0.3);
+  letter-spacing: 0.5px;
+}
+
+.difficulty-selection button:hover {
+  transform: translateY(-5px); /* Efek melayang lebih tinggi */
+  box-shadow: 0 12px 30px rgba(37, 117, 252, 0.5);
+  background: linear-gradient(45deg, #2575fc 0%, #6a11cb 100%); /* Reverse gradien saat hover */
+}
+
+.difficulty-selection button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 15px rgba(37, 117, 252, 0.2);
+}
+
+/* --- Quiz Section Styling --- */
+.question-section {
+  width: 100%;
+  margin-bottom: 30px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.question-count {
+  font-size: 1.2em;
+  color: #6a11cb;
+  margin-bottom: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.question-text {
+  font-size: 2.1em; 
+  font-weight: 700;
+  margin-bottom: 35px;
+  color: #ffffff;
+  line-height: 1.3;
+}
+
+.answer-section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+
+.answer-section button {
+  width: 100%;
+  padding: 18px 25px; /* Padding disesuaikan */
+  background-color: #f7f9fc;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  font-size: 1.1em;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.answer-section button:hover {
+  background-color: #e3f2fd; /* Latar biru muda saat hover */
+  border-color: #2575fc;
+  transform: translateX(8px);
+  box-shadow: 0 6px 18px rgba(37, 117, 252, 0.2);
+  color: #2575fc;
+}
+
+.answer-section button:focus {
+  outline: none;
+  border-color: #2575fc;
+  box-shadow: 0 0 0 4px rgba(37, 117, 252, 0.25);
+}
+
+/* --- Result Screen Styling --- */
+.result-section h2 {
+  font-size: 3em;
+  font-weight: 700;
+  background: -webkit-linear-gradient(45deg, #6a11cb, #2575fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 25px;
+}
+
+.result-section p {
+  font-size: 1.6em;
+  color: #555;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+.result-section button {
+  width: auto; /* Tombol restart disesuaikan lebarnya */
+  min-width: 200px;
+  padding: 15px 30px;
+  background: linear-gradient(45deg, #28a745 0%, #218838 100%); /* Warna hijau untuk restart */
+  box-shadow: 0 8px 25px rgba(40, 167, 69, 0.3);
+}
+
+.result-section button:hover {
+  background: linear-gradient(45deg, #218838 0%, #28a745 100%);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(40, 167, 69, 0.5);
+}
+
+
+/* --- Responsiveness --- */
+@media (max-width: 768px) {
+  .app {
+    padding: 30px 20px;
+    border-radius: 15px;
+    max-width: 95%;
+  }
+  .tech-icons { gap: 15px; margin-bottom: 25px; }
+  .tech-icons img { width: 40px; height: 40px; }
+  .welcome-screen h1 { font-size: 2.2em; margin-bottom: 15px; }
+  .welcome-screen p { font-size: 1em; margin-bottom: 30px; max-width: 90%; }
+  .question-text { font-size: 1.8em; margin-bottom: 25px; }
+  .question-count { font-size: 1.1em; }
+  .answer-section button { font-size: 1em; padding: 15px; border-radius: 12px; }
+  .difficulty-selection button { padding: 14px 20px; font-size: 1em; width: 80%; }
+  .result-section h2 { font-size: 2.5em; }
+  .result-section p { font-size: 1.4em; margin-bottom: 30px; }
+}
+
+@media (max-width: 480px) {
+  .app {
+    padding: 25px 15px;
+  }
+  .tech-icons { gap: 10px; margin-bottom: 20px; }
+  .tech-icons img { width: 35px; height: 35px; }
+  .welcome-screen h1 { font-size: 1.8em; }
+  .welcome-screen p { font-size: 0.9em; }
+  .question-text { font-size: 1.3em; }
+  .answer-section button { padding: 12px 10px; font-size: 0.9em; }
+  .difficulty-selection button { font-size: 0.95em; width: 90%; padding: 12px 15px; }
+  .result-section h2 { font-size: 2em; }
+  .result-section p { font-size: 1.1em; }
+
+}/* --- Definisi Variabel Warna & Font Global --- */
+:root {
+  --background-dark: #121828;
+  --card-dark: #1e293b;
+  --primary-text: #f1f5f9;
+  --secondary-text: #006aff;
+  --accent-blue: #38bdf8;
+  --accent-purple: #818cf8;
+  --correct: #22c55e;
+  --incorrect: #ef4444;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* --- Global Styling --- */
+body {
+  margin: 0;
+  background-color: var(--background-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: var(--primary-text);
+  overflow: hidden;
+}
+
+.app {
+  background-color: var(--card-dark);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 600px;
+  padding: 40px;
+  text-align: center;
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* --- Welcome Screen Styling --- */
+.welcome-screen h1 {
+  font-size: 2.8em;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.welcome-screen p {
+  font-size: 1.1em;
+  color: var(--secondary-text);
+  margin-bottom: 40px;
+}
+.difficulty-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.difficulty-selection button {
+  width: 80%;
+  max-width: 300px;
+  padding: 16px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--primary-text);
+  border-radius: 15px;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.difficulty-selection button:hover {
+  background-color: var(--accent-blue);
+  border-color: var(--accent-blue);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(56, 189, 248, 0.2);
+}
+
+/* --- Quiz Container & Progress Bar --- */
+.quiz-container {
+  width: 100%;
+}
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.progress-bar-inner {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+  border-radius: 10px;
+  transition: width 0.5s ease-in-out;
+}
+
+/* --- Quiz Section --- */
+.question-count {
+  font-size: 1.2em;
+  color: var(--secondary-text);
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.question-count span {
+  color: var(--primary-text);
+  font-weight: 700;
+}
+.question-text {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 35px;
+  line-height: 1.4;
+}
+
+/* --- Answer Section --- */
+.answer-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+.answer-section button {
+  width: 100%;
+  padding: 18px 25px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  font-size: 1.1em;
+  color: var(--primary-text);
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+.answer-section button:hover:not(:disabled) {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: var(--accent-blue);
+}
+.answer-section button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* --- Answer Feedback Classes --- */
+.answer-section button.correct {
+  background-color: var(--correct);
+  border-color: var(--correct);
+  color: white;
+  transform: scale(1.02);
+}
+.answer-section button.incorrect {
+  background-color: var(--incorrect);
+  border-color: var(--incorrect);
+  color: white;
+}
+
+/* --- Result Screen Styling --- */
+.result-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; /* Penting untuk posisi confetti */
+  overflow: hidden; /* Agar confetti tidak keluar batas */
+}
+
+/* Sederhanakan warna teks pada judul hasil */
+.result-section h2 {
+  font-size: 2.5em; 
+  font-weight: 700;
+  margin-bottom: 30px; 
+  /* Gunakan warna teks primer atau biarkan gradien jika suka */
+  background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.3;
+}
+
+/* Animasi untuk judul hasil yang sukses */
+.result-section h2.animated-success {
+  animation: bounceIn 1s ease-out; /* Animasi bouncing untuk judul sukses */
+}
+
+@keyframes bounceIn {
+  0% { transform: scale(0.8); opacity: 0; }
+  60% { transform: scale(1.1); opacity: 1; }
+  80% { transform: scale(0.95); }
+  100% { transform: scale(1); }
+}
+
+
+/* --- Result Screen Styling --- */
+.result-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.result-section h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 30px;
+  background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.3;
+}
+
+.result-section h2.animated-success {
+  animation: bounceIn 1s ease-out;
+}
+
+.final-score-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.score-label, .score-details {
+  font-size: 1.2em;
+  /* UBAH INI ke primary-text */
+  color: var(--primary-text); 
+  margin: 0;
+  font-weight: 500;
+}
+
+.final-score {
+  font-size: 6em;
+  font-weight: 800;
+  color: var(--primary-text);
+  margin: 0;
+  line-height: 1;
+  background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.final-score span {
+  font-size: 0.4em;
+  font-weight: 600;
+  color: var(--secondary-text);
+  margin-left: 5px;
+}
+
+.score-details {
+  font-size: 1.1em;
+  margin-bottom: 40px;
+}
+
+.result-section button {
+  padding: 15px 30px;
+  background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.result-section button:hover {
+  /* Samakan efek hover dengan shadow yang lebih menonjol */
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(56, 189, 248, 0.2);
+}
+
+/* --- Responsiveness (pastikan tidak ada konflik) --- */
+@media (max-width: 640px) {
+  .result-section h2 { font-size: 2em; }
+  .final-score { font-size: 5em; }
+  .score-details { font-size: 1em; }
+}
