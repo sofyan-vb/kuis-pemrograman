@@ -1,12 +1,12 @@
 **🚀 Kuis Pemrograman Interaktif**<br/> 
-        Sebuah aplikasi web kuis yang dirancang untuk menguji dan meningkatkan kemampuan pemrograman Anda melalui antarmuka yang modern, imersif, dan menyenangkan. Proyek             ini bertujuan untuk menyediakan platform belajar yang tidak membosankan bagi para pelajar, developer, atau siapa saja yang tertarik dengan dunia koding.<br/> <br/>
+        Sebuah aplikasi web kuis yang dirancang untuk menguji dan meningkatkan kemampuan pemrograman Anda melalui antarmuka yang modern, imersif, dan menyenangkan. Proyek             ini bertujuan untuk menyediakan platform belajar yang tidak membosankan bagi para pelajar, developer, atau siapa saja yang tertarik dengan dunia koding.<br/><br/>
  
 
 **💻 Gambaran Umum**<br/>
         Aplikasi ini menyambut pengguna dengan sebuah halaman utama yang langsung ke intinya. Tanpa navigasi yang rumit, pengguna dihadapkan pada satu pilihan utama:                 menentukan tingkat kesulitan kuis. Desain yang gelap dan bertema teknologi menciptakan suasana yang tepat untuk fokus dan tertantang.
 
 
-**✨ Fitur Utama**<br/>
+**✨ Fitur Utama**<br/><br/>
         🎨 Desain Modern & Tematik: Antarmuka pengguna (UI) dirancang dengan tema dark mode yang futuristik, lengkap dengan latar belakang kota siber dan elemen digital.<br/>
         🎯 3 Tingkat Kesulitan: Melayani berbagai level kemampuan dengan menyediakan pilihan Mudah, Sedang, dan Sulit.<br/>
         💡 Pengalaman Pengguna (UX) yang Terfokus: Menggunakan jendela modal di awal untuk mengarahkan pengguna agar langsung memulai kuis dalam satu kali klik.<br/>
