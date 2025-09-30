@@ -1,70 +1,95 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Kuis Pemrograman Interaktif
+Sebuah aplikasi web kuis yang dirancang untuk menguji dan meningkatkan kemampuan pemrograman Anda melalui antarmuka yang modern, imersif, dan menyenangkan. Proyek ini bertujuan untuk menyediakan platform belajar yang tidak membosankan bagi para pelajar, developer, atau siapa saja yang tertarik dengan dunia koding.
 
-## Available Scripts
+💻 Gambaran Umum
+Aplikasi ini menyambut pengguna dengan sebuah halaman utama yang langsung ke intinya. Tanpa navigasi yang rumit, pengguna dihadapkan pada satu pilihan utama: menentukan tingkat kesulitan kuis. Desain yang gelap dan bertema teknologi menciptakan suasana yang tepat untuk fokus dan tertantang.
 
-In the project directory, you can run:
+✨ Fitur Utama
+🎨 Desain Modern & Tematik: Antarmuka pengguna (UI) dirancang dengan tema dark mode yang futuristik, lengkap dengan latar belakang kota siber dan elemen digital.
 
-### `npm start`
+🎯 3 Tingkat Kesulitan: Melayani berbagai level kemampuan dengan menyediakan pilihan Mudah, Sedang, dan Sulit.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+💡 Pengalaman Pengguna (UX) yang Terfokus: Menggunakan jendela modal di awal untuk mengarahkan pengguna agar langsung memulai kuis dalam satu kali klik.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📱 Responsif (Asumsi): Didesain untuk dapat diakses dengan baik di berbagai perangkat, baik desktop maupun mobile.
 
-### `npm test`
+🗺️ Alur Pengguna (User Flow)
+🏠 Buka Aplikasi: Pengguna mengakses web dan langsung disambut oleh layar utama.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🖱️ Pilih Kesulitan: Pengguna memilih salah satu dari tiga tombol kesulitan.
 
-### `npm run build`
+🧠 Mulai Kuis: Sesi kuis akan segera dimulai sesuai dengan tingkat kesulitan yang dipilih.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🏆 Lihat Hasil: (Langkah selanjutnya) Setelah menyelesaikan kuis, pengguna akan melihat skor dan hasil akhirnya.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🛠️ Tumpukan Teknologi & Perkakas (Technology Stack & Tools)
+Berikut adalah daftar komprehensif dari teknologi, perkakas (tools), dan platform yang dapat digunakan untuk membangun dan mendeploy proyek kuis interaktif seperti ini.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+뼈 Fondasi Utama (Core Foundation)
+HTML5: Untuk membangun struktur semantik dari konten halaman web.
 
-### `npm run eject`
+CSS3: Untuk styling, tata letak, dan desain visual, termasuk animasi dan desain responsif.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+JavaScript (ES6+): Sebagai otak dari aplikasi, menangani logika kuis, interaksi pengguna, dan manipulasi DOM.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+⚛️ Framework & Library Frontend
+Pilihan framework untuk membangun UI yang reaktif dan terstruktur.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+React.js: Library populer dari Meta untuk membangun antarmuka pengguna berbasis komponen.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Vue.js: Framework progresif yang mudah dipelajari dan sangat fleksibel.
 
-## Learn More
+Svelte: Kompiler yang mengubah komponen menjadi kode JavaScript imperatif yang sangat efisien saat build time.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🎨 Styling & Komponen UI
+Berbagai pendekatan untuk mempercepat dan mempermudah proses styling.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Tailwind CSS: Framework CSS utility-first untuk membangun desain kustom dengan cepat tanpa meninggalkan HTML.
 
-### Code Splitting
+Styled-Components / Emotion: Pustaka CSS-in-JS yang memungkinkan penulisan CSS langsung di dalam file komponen JavaScript.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Sass/SCSS: Preprocessor CSS yang menambahkan fitur seperti variabel, nesting, dan mixin.
 
-### Analyzing the Bundle Size
+Materi-UI (MUI) / Chakra UI: Pustaka komponen UI siap pakai untuk membangun aplikasi dengan cepat dan konsisten.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📦 Manajemen State (State Management)
+Untuk mengelola data aplikasi secara terpusat dan efisien, seperti skor, pertanyaan saat ini, dan waktu.
 
-### Making a Progressive Web App
+Redux / Redux Toolkit: Solusi manajemen state yang kuat dan dapat diprediksi, terutama untuk aplikasi React yang kompleks.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Pinia: Solusi manajemen state resmi untuk Vue.js, dikenal karena kesederhanaannya.
 
-### Advanced Configuration
+Zustand / Jotai: Alternatif yang lebih ringan dan modern untuk manajemen state di ekosistem React.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🚀 Build Tools & Bundler
+Perkakas untuk mengoptimalkan dan menggabungkan file-file proyek (JavaScript, CSS) menjadi aset statis yang siap untuk production.
 
-### Deployment
+Vite: Build tool modern yang sangat cepat berkat penggunaan native ES modules.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Webpack: Bundler yang sangat populer dan kuat dengan ekosistem plugin yang luas.
 
-### `npm run build` fails to minify
+🧪 Pengujian (Testing)
+Framework dan utilitas untuk memastikan kode berjalan sesuai harapan dan bebas dari bug.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Jest / Vitest: Framework testing JavaScript untuk unit testing dan integration testing.
+
+React Testing Library: Pustaka untuk menguji komponen React dengan cara yang menyerupai interaksi pengguna.
+
+Cypress: Framework end-to-end testing untuk mensimulasikan alur pengguna secara keseluruhan di browser.
+
+☁️ Deployment & Hosting
+Platform untuk mempublikasikan aplikasi web agar dapat diakses oleh publik.
+
+Vercel: Platform yang dioptimalkan untuk framework frontend modern seperti Next.js (React) dengan CI/CD yang mulus.
+
+Netlify: Platform populer untuk hosting aplikasi web statis dan JAMstack, lengkap dengan fitur seperti serverless functions.
+
+GitHub Pages: Solusi hosting gratis dan sederhana langsung dari repositori GitHub Anda.
+
+✨ Perkakas Pendukung (Supporting Tools)
+ESLint: Untuk menganalisis kode secara statis dan menemukan masalah atau code smells.
+
+Prettier: Code formatter untuk menjaga konsistensi gaya penulisan kode di seluruh proyek.
+
+Git & GitHub: Sistem kontrol versi untuk melacak perubahan kode dan berkolaborasi dengan tim.
