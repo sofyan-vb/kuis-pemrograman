@@ -1,25 +1,25 @@
-🚀 Kuis Pemrograman Interaktif
+**🚀 Kuis Pemrograman Interaktif**
     Sebuah aplikasi web kuis yang dirancang untuk menguji dan meningkatkan kemampuan pemrograman Anda melalui antarmuka yang modern, imersif, dan menyenangkan. Proyek ini         bertujuan untuk menyediakan platform belajar yang tidak membosankan bagi para pelajar, developer, atau siapa saja yang tertarik dengan dunia koding.
 
-💻 Gambaran Umum
+**💻 Gambaran Umum**
      Aplikasi ini menyambut pengguna dengan sebuah halaman utama yang langsung ke intinya. Tanpa navigasi yang rumit, pengguna dihadapkan pada satu pilihan utama:                 menentukan tingkat kesulitan kuis. Desain yang gelap dan bertema teknologi menciptakan suasana yang tepat untuk fokus dan tertantang.
 
 
-✨ Fitur Utama
+**✨ Fitur Utama**
     🎨 Desain Modern & Tematik: Antarmuka pengguna (UI) dirancang dengan tema dark mode yang futuristik, lengkap dengan latar belakang kota siber dan elemen digital.
     🎯 3 Tingkat Kesulitan: Melayani berbagai level kemampuan dengan menyediakan pilihan Mudah, Sedang, dan Sulit.
     💡 Pengalaman Pengguna (UX) yang Terfokus: Menggunakan jendela modal di awal untuk mengarahkan pengguna agar langsung memulai kuis dalam satu kali klik.
     📱 Responsif (Asumsi): Didesain untuk dapat diakses dengan baik di berbagai perangkat, baik desktop maupun mobile.
 
   
-🗺️ Alur Pengguna (User Flow)
+**🗺️ Alur Pengguna (User Flow)**
     🏠 Buka Aplikasi: Pengguna mengakses web dan langsung disambut oleh layar utama.    
     🖱️ Pilih Kesulitan: Pengguna memilih salah satu dari tiga tombol kesulitan.
     🧠 Mulai Kuis: Sesi kuis akan segera dimulai sesuai dengan tingkat kesulitan yang dipilih.
     🏆 Lihat Hasil: (Langkah selanjutnya) Setelah menyelesaikan kuis, pengguna akan melihat skor dan hasil akhirnya.
 
 
-🛠️ Tumpukan Teknologi & Perkakas (Technology Stack & Tools)
+**🛠️ Tumpukan Teknologi & Perkakas (Technology Stack & Tools)**
 Berikut adalah daftar komprehensif dari teknologi, perkakas (tools), dan platform yang dapat digunakan untuk membangun dan mendeploy proyek kuis interaktif seperti ini.
 
 뼈 Fondasi Utama (Core Foundation)
@@ -28,7 +28,7 @@ Berikut adalah daftar komprehensif dari teknologi, perkakas (tools), dan platfor
     JavaScript (ES6+): Sebagai otak dari aplikasi, menangani logika kuis, interaksi pengguna, dan manipulasi DOM.
 
     
-⚛️ Framework & Library Frontend
+**⚛️ Framework & Library Frontend**
     Pilihan framework untuk membangun UI yang reaktif dan terstruktur.
 
     React.js: Library populer dari Meta untuk membangun antarmuka pengguna berbasis komponen.
@@ -36,7 +36,7 @@ Berikut adalah daftar komprehensif dari teknologi, perkakas (tools), dan platfor
     Svelte: Kompiler yang mengubah komponen menjadi kode JavaScript imperatif yang sangat efisien saat build time.
 
 
-🎨 Styling & Komponen UI
+**🎨 Styling & Komponen UI**
     Berbagai pendekatan untuk mempercepat dan mempermudah proses styling.
     
     Tailwind CSS: Framework CSS utility-first untuk membangun desain kustom dengan cepat tanpa meninggalkan HTML.
@@ -45,7 +45,7 @@ Berikut adalah daftar komprehensif dari teknologi, perkakas (tools), dan platfor
     Materi-UI (MUI) / Chakra UI: Pustaka komponen UI siap pakai untuk membangun aplikasi dengan cepat dan konsisten.
 
 
-📦 Manajemen State (State Management)
+**📦 Manajemen State (State Management)**
     Untuk mengelola data aplikasi secara terpusat dan efisien, seperti skor, pertanyaan saat ini, dan waktu.
 
     Redux / Redux Toolkit: Solusi manajemen state yang kuat dan dapat diprediksi, terutama untuk aplikasi React yang kompleks.
@@ -53,14 +53,14 @@ Berikut adalah daftar komprehensif dari teknologi, perkakas (tools), dan platfor
     Zustand / Jotai: Alternatif yang lebih ringan dan modern untuk manajemen state di ekosistem React.
 
 
-🚀 Build Tools & Bundler
+**🚀 Build Tools & Bundler**
     Perkakas untuk mengoptimalkan dan menggabungkan file-file proyek (JavaScript, CSS) menjadi aset statis yang siap untuk production.
 
     Vite: Build tool modern yang sangat cepat berkat penggunaan native ES modules.  
     Webpack: Bundler yang sangat populer dan kuat dengan ekosistem plugin yang luas.
 
 
-🧪 Pengujian (Testing)
+**🧪 Pengujian (Testing)**
     Framework dan utilitas untuk memastikan kode berjalan sesuai harapan dan bebas dari bug.
 
     Jest / Vitest: Framework testing JavaScript untuk unit testing dan integration testing.
@@ -68,7 +68,7 @@ Berikut adalah daftar komprehensif dari teknologi, perkakas (tools), dan platfor
     Cypress: Framework end-to-end testing untuk mensimulasikan alur pengguna secara keseluruhan di browser.
 
 
-☁️ Deployment & Hosting
+**☁️ Deployment & Hosting**
     Platform untuk mempublikasikan aplikasi web agar dapat diakses oleh publik.
 
     Vercel: Platform yang dioptimalkan untuk framework frontend modern seperti Next.js (React) dengan CI/CD yang mulus.
@@ -76,7 +76,7 @@ Berikut adalah daftar komprehensif dari teknologi, perkakas (tools), dan platfor
     GitHub Pages: Solusi hosting gratis dan sederhana langsung dari repositori GitHub Anda.
 
 
-✨ Perkakas Pendukung (Supporting Tools)
+**✨ Perkakas Pendukung (Supporting Tools)**
 
     ESLint: Untuk menganalisis kode secara statis dan menemukan masalah atau code smells.
     Prettier: Code formatter untuk menjaga konsistensi gaya penulisan kode di seluruh proyek.
