@@ -1,24 +1,23 @@
-[^1]:**🚀 Kuis Pemrograman Interaktif**
-    [^2]:Sebuah aplikasi web kuis yang dirancang untuk menguji dan meningkatkan kemampuan pemrograman Anda melalui antarmuka yang modern, imersif, dan menyenangkan. Proyek             ini bertujuan untuk menyediakan platform belajar yang tidak membosankan bagi para pelajar, developer, atau siapa saja yang tertarik dengan dunia koding.
-    This example
-Will span two lines
+**🚀 Kuis Pemrograman Interaktif**
+        Sebuah aplikasi web kuis yang dirancang untuk menguji dan meningkatkan kemampuan pemrograman Anda melalui antarmuka yang modern, imersif, dan menyenangkan. Proyek             ini bertujuan untuk menyediakan platform belajar yang tidak membosankan bagi para pelajar, developer, atau siapa saja yang tertarik dengan dunia koding.
+ 
 
 **💻 Gambaran Umum**
-     Aplikasi ini menyambut pengguna dengan sebuah halaman utama yang langsung ke intinya. Tanpa navigasi yang rumit, pengguna dihadapkan pada satu pilihan utama:                 menentukan tingkat kesulitan kuis. Desain yang gelap dan bertema teknologi menciptakan suasana yang tepat untuk fokus dan tertantang.
+        Aplikasi ini menyambut pengguna dengan sebuah halaman utama yang langsung ke intinya. Tanpa navigasi yang rumit, pengguna dihadapkan pada satu pilihan utama:                 menentukan tingkat kesulitan kuis. Desain yang gelap dan bertema teknologi menciptakan suasana yang tepat untuk fokus dan tertantang.
 
 
 **✨ Fitur Utama**
-    🎨 Desain Modern & Tematik: Antarmuka pengguna (UI) dirancang dengan tema dark mode yang futuristik, lengkap dengan latar belakang kota siber dan elemen digital.
-    🎯 3 Tingkat Kesulitan: Melayani berbagai level kemampuan dengan menyediakan pilihan Mudah, Sedang, dan Sulit.
-    💡 Pengalaman Pengguna (UX) yang Terfokus: Menggunakan jendela modal di awal untuk mengarahkan pengguna agar langsung memulai kuis dalam satu kali klik.
-    📱 Responsif (Asumsi): Didesain untuk dapat diakses dengan baik di berbagai perangkat, baik desktop maupun mobile.
+        🎨 Desain Modern & Tematik: Antarmuka pengguna (UI) dirancang dengan tema dark mode yang futuristik, lengkap dengan latar belakang kota siber dan elemen digital.
+        🎯 3 Tingkat Kesulitan: Melayani berbagai level kemampuan dengan menyediakan pilihan Mudah, Sedang, dan Sulit.
+        💡 Pengalaman Pengguna (UX) yang Terfokus: Menggunakan jendela modal di awal untuk mengarahkan pengguna agar langsung memulai kuis dalam satu kali klik.
+        📱 Responsif (Asumsi): Didesain untuk dapat diakses dengan baik di berbagai perangkat, baik desktop maupun mobile.
 
   
 **🗺️ Alur Pengguna (User Flow)**
-    🏠 Buka Aplikasi: Pengguna mengakses web dan langsung disambut oleh layar utama.    
-    🖱️ Pilih Kesulitan: Pengguna memilih salah satu dari tiga tombol kesulitan.
-    🧠 Mulai Kuis: Sesi kuis akan segera dimulai sesuai dengan tingkat kesulitan yang dipilih.
-    🏆 Lihat Hasil: (Langkah selanjutnya) Setelah menyelesaikan kuis, pengguna akan melihat skor dan hasil akhirnya.
+        🏠 Buka Aplikasi: Pengguna mengakses web dan langsung disambut oleh layar utama.    
+        🖱️ Pilih Kesulitan: Pengguna memilih salah satu dari tiga tombol kesulitan.
+        🧠 Mulai Kuis: Sesi kuis akan segera dimulai sesuai dengan tingkat kesulitan yang dipilih.
+        🏆 Lihat Hasil: (Langkah selanjutnya) Setelah menyelesaikan kuis, pengguna akan melihat skor dan hasil akhirnya.
 
 
 **🛠️ Tumpukan Teknologi & Perkakas (Technology Stack & Tools)**
