@@ -14,7 +14,7 @@
 
   
 **🗺️ Alur Pengguna (User Flow)**<br/>
-        🏠 Buka Aplikasi: Pengguna mengakses web dan langsung disambut oleh layar utama.<br/>    
+        🏠 Buka Aplikasi: Pengguna mengakses web dan langsung disambut oleh layar utama.    
         🖱️ Pilih Kesulitan: Pengguna memilih salah satu dari tiga tombol kesulitan.<br/>
         🧠 Mulai Kuis: Sesi kuis akan segera dimulai sesuai dengan tingkat kesulitan yang dipilih.<br/>
         🏆 Lihat Hasil: (Langkah selanjutnya) Setelah menyelesaikan kuis, pengguna akan melihat skor dan hasil akhirnya.<br/><br/>
