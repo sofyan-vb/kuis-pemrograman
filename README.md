@@ -3,21 +3,21 @@
  
 
 **💻 Gambaran Umum**<br/>
-        Aplikasi ini menyambut pengguna dengan sebuah halaman utama yang langsung ke intinya. Tanpa navigasi yang rumit, pengguna dihadapkan pada satu pilihan utama:                 menentukan tingkat kesulitan kuis. Desain yang gelap dan bertema teknologi menciptakan suasana yang tepat untuk fokus dan tertantang.
+        Aplikasi ini menyambut pengguna dengan sebuah halaman utama yang langsung ke intinya. Tanpa navigasi yang rumit, pengguna dihadapkan pada satu pilihan utama:                 menentukan tingkat kesulitan kuis. Desain yang gelap dan bertema teknologi menciptakan suasana yang tepat untuk fokus dan tertantang.<br/><br/>
 
 
-**✨ Fitur Utama**<br/><br/>
+**✨ Fitur Utama**<br/>
         🎨 Desain Modern & Tematik: Antarmuka pengguna (UI) dirancang dengan tema dark mode yang futuristik, lengkap dengan latar belakang kota siber dan elemen digital.<br/>
         🎯 3 Tingkat Kesulitan: Melayani berbagai level kemampuan dengan menyediakan pilihan Mudah, Sedang, dan Sulit.<br/>
         💡 Pengalaman Pengguna (UX) yang Terfokus: Menggunakan jendela modal di awal untuk mengarahkan pengguna agar langsung memulai kuis dalam satu kali klik.<br/>
-        📱 Responsif (Asumsi): Didesain untuk dapat diakses dengan baik di berbagai perangkat, baik desktop maupun mobile.
+        📱 Responsif (Asumsi): Didesain untuk dapat diakses dengan baik di berbagai perangkat, baik desktop maupun mobile.<br/><br/>
 
   
 **🗺️ Alur Pengguna (User Flow)**<br/>
         🏠 Buka Aplikasi: Pengguna mengakses web dan langsung disambut oleh layar utama.<br/>    
         🖱️ Pilih Kesulitan: Pengguna memilih salah satu dari tiga tombol kesulitan.<br/>
         🧠 Mulai Kuis: Sesi kuis akan segera dimulai sesuai dengan tingkat kesulitan yang dipilih.<br/>
-        🏆 Lihat Hasil: (Langkah selanjutnya) Setelah menyelesaikan kuis, pengguna akan melihat skor dan hasil akhirnya.
+        🏆 Lihat Hasil: (Langkah selanjutnya) Setelah menyelesaikan kuis, pengguna akan melihat skor dan hasil akhirnya.<br/><br/>
 
 
 **🛠️ Tumpukan Teknologi & Perkakas (Technology Stack & Tools)**<br/>
@@ -26,7 +26,7 @@ Berikut adalah daftar komprehensif dari teknologi, perkakas (tools), dan platfor
 뼈 Fondasi Utama (Core Foundation)<br/>
     HTML5: Untuk membangun struktur semantik dari konten halaman web.<br/>
     CSS3: Untuk styling, tata letak, dan desain visual, termasuk animasi dan desain responsif.<br/>
-    JavaScript (ES6+): Sebagai otak dari aplikasi, menangani logika kuis, interaksi pengguna, dan manipulasi DOM.
+    JavaScript (ES6+): Sebagai otak dari aplikasi, menangani logika kuis, interaksi pengguna, dan manipulasi DOM.<br/><br/>
 
     
 **⚛️ Framework & Library Frontend**<br/>
