@@ -1,4 +1,4 @@
-**🚀 Kuis Pemrograman Interaktif**<br/> 
+**🚀 Kuis Pemrograman Interaktif**<br/><br/>
         Sebuah aplikasi web kuis yang dirancang untuk menguji dan meningkatkan kemampuan pemrograman Anda melalui antarmuka yang modern, imersif, dan menyenangkan. Proyek             ini bertujuan untuk menyediakan platform belajar yang tidak membosankan bagi para pelajar, developer, atau siapa saja yang tertarik dengan dunia koding.<br/><br/>
  
 
@@ -6,21 +6,21 @@
         Aplikasi ini menyambut pengguna dengan sebuah halaman utama yang langsung ke intinya. Tanpa navigasi yang rumit, pengguna dihadapkan pada satu pilihan utama:                 menentukan tingkat kesulitan kuis. Desain yang gelap dan bertema teknologi menciptakan suasana yang tepat untuk fokus dan tertantang.<br/><br/>
 
 
-**✨ Fitur Utama**<br/>
+**✨ Fitur Utama**<br/><br/>
         🎨 Desain Modern & Tematik: Antarmuka pengguna (UI) dirancang dengan tema dark mode yang futuristik, lengkap dengan latar belakang kota siber dan elemen digital.<br/>
         🎯 3 Tingkat Kesulitan: Melayani berbagai level kemampuan dengan menyediakan pilihan Mudah, Sedang, dan Sulit.<br/>
         💡 Pengalaman Pengguna (UX) yang Terfokus: Menggunakan jendela modal di awal untuk mengarahkan pengguna agar langsung memulai kuis dalam satu kali klik.<br/>
         📱 Responsif (Asumsi): Didesain untuk dapat diakses dengan baik di berbagai perangkat, baik desktop maupun mobile.<br/><br/>
 
   
-**🗺️ Alur Pengguna (User Flow)**<br/>
+**🗺️ Alur Pengguna (User Flow)**<br/><br/>
         🏠 Buka Aplikasi: Pengguna mengakses web dan langsung disambut oleh layar utama.    
         🖱️ Pilih Kesulitan: Pengguna memilih salah satu dari tiga tombol kesulitan.<br/>
         🧠 Mulai Kuis: Sesi kuis akan segera dimulai sesuai dengan tingkat kesulitan yang dipilih.<br/>
         🏆 Lihat Hasil: (Langkah selanjutnya) Setelah menyelesaikan kuis, pengguna akan melihat skor dan hasil akhirnya.<br/><br/>
 
 
-**🛠️ Tumpukan Teknologi & Perkakas (Technology Stack & Tools)**<br/>
+**🛠️ Tumpukan Teknologi & Perkakas (Technology Stack & Tools)**<br/><br/>
 Berikut adalah daftar komprehensif dari teknologi, perkakas (tools), dan platform yang dapat digunakan untuk membangun dan mendeploy proyek kuis interaktif seperti ini.<br/>
 
 뼈 Fondasi Utama (Core Foundation)<br/>
@@ -29,7 +29,7 @@ Berikut adalah daftar komprehensif dari teknologi, perkakas (tools), dan platfor
     JavaScript (ES6+): Sebagai otak dari aplikasi, menangani logika kuis, interaksi pengguna, dan manipulasi DOM.<br/><br/>
 
     
-**⚛️ Framework & Library Frontend**<br/>
+**⚛️ Framework & Library Frontend**<br/><br/>
     Pilihan framework untuk membangun UI yang reaktif dan terstruktur.<br/>
 
     React.js: Library populer dari Meta untuk membangun antarmuka pengguna berbasis komponen.<br/>
